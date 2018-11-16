@@ -17,3 +17,25 @@ Se requiere implementar el flujo de creación del proceso, debe existir una list
 - Mostrar presupuesto en Dólares y pesos.
 - En la lista de procesos realizar filtro por fecha de creación.
 
+## Instalación y Configuración
+
+El desarrollo esta basado en el Framework Laravel. Para mayor información puede consultar la documentación oficial:  [Laravel documentation](https://laravel.com/docs). 
+
+- Descargar o Clonar el repositorio en la ubicacion de su preferencia
+- Se debe actualizar las dependencias con Composer ejecutando el siguiente comando en la raiz del proyecto: "composer update".
+- Configurar el archivo .env para la correcta conexion a la base de datos mysql.
+- Ejecutar la migracion de las tablas y sus relaciones con "php artisan migrate", previamente se debe haber creado la base de datos y configurar los datos de conexion en el archivo .env.
+- Ejecutar el comando "php artisan serve" para levantar el servidor web de Laravel.
+
+## Acceso y Uso
+
+Si los pasos anteriores ha sido realizados correctamente y sin errores, podemos acceder al proyecto el la siguiente direccion: "http://localhost:8000".
+
+Seguidamente:
+
+- Registrar un Usuario para acceder al proyecto
+- Iniciar sesión con le Usuario previamente registrado.
+
+## Agradecimiento
+
+Muchas gracias a la empresa ComForce por permitirme participar en su proceso de selección, espero haber cumplido con todos los requerimiento. 
